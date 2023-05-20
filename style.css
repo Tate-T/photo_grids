@@ -1,74 +1,89 @@
+main {
+    padding-bottom: 66px;
+}
+
 .header-link {
-    font-family: 'Playfair Display';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.36;
-color: #7D7D7D;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #7d7d7d;
 }
 
 .header-link:hover {
-    color: #03A9F4;
+  color: #03a9f4;
 }
 
-.gallary-list{
-    display: flex;
-    flex-wrap: wrap;
-    row-gap: 130px;
-    column-gap: 65px;
+.gallary-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 130px;
+  column-gap: 65px;
 }
 
-.gallary-item{
-    width: 420px;
+.gallary-item {
+  width: 420px;
 }
 
-.gallary-name{
-    font-family: 'Ubuntu';
-font-weight: 300;
-font-size: 14px;
-line-height: 1.14;
-color: #B4AD9E;
+.gallary-name {
+  font-family: "Ubuntu";
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1.14;
+  color: #b4ad9e;
+  margin-top: 62px;
+  margin-bottom: 32px;
 }
 
-.gallary-title{ 
-    font-family: 'Playfair Display';
-font-weight: 400;
-font-size: 30px;
-line-height: 1.33;
-color: #626262;
+.gallary-title {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.33;
+  color: #626262;
+  margin-bottom: 40px;
 }
 
-.gallary-description{
-    font-family: 'Playfair Display';
-font-weight: 400;
-font-size: 14px;
-line-height: 1.36;
-color: #626262;
+.gallary-description {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  color: #626262;
 }
 
-.gallary-btn{   
-    font-family: 'Playfair Display';
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-color: #626262;
+.gallary-btn {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #626262;
+  margin-top: 90px;
+  padding-top: 29px;
+  padding-left: 49px;
+  padding-right: 48px;
+  padding-bottom: 21px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #626262;
+  background-color: transparent;
 }
 
-.container{
-    outline: solid red;
-    width: 906px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  width: 906px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.header-list{
-    display: flex;
-    gap: 100px;
-    justify-content: center;
+.header-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 
-.header{
-    padding-top: 71px;
-    padding-bottom: 92px;
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
 }
-
