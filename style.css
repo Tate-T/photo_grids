@@ -1,5 +1,22 @@
+.container {
+  width: 906px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 main {
     padding-bottom: 66px;
+}
+
+.header {
+  padding-top: 71px;
+  padding-bottom: 92px;
+}
+
+.header-list {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
 }
 
 .header-link {
@@ -69,21 +86,4 @@ main {
   margin-right: auto;
   border: 1px solid #626262;
   background-color: transparent;
-}
-
-.container {
-  width: 906px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.header-list {
-  display: flex;
-  gap: 100px;
-  justify-content: center;
-}
-
-.header {
-  padding-top: 71px;
-  padding-bottom: 92px;
 }
